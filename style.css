@@ -13,13 +13,29 @@ nav{
     height:45px;
     background:gray;
     border-bottom: 2px solid black;
+    z-index:1000;
 }
+/* introduce */
+
+.introd1{
+    color:rgb(54, 48, 48);
+    font-size:32px;
+}
+a.introd1{
+    text-decoration:none;
+}
+
 header{
     background-color:rgb(27, 27, 27);
 }
 /* logo da nav */
-.logo{
-  
+div.logo{
+    background-image:url("./PicsArt_04-28-02.35.22.png");
+    background-size:45px;
+    height:45px;
+    width:45px;
+    background-image: black;
+    cursor: pointer;
 }
 /*os vezinhos da nav */
 .vezinho{
@@ -212,9 +228,9 @@ header{
 /* primeira fotinha de cima "abertura" */
 .abertura{
     background-image:url("./payton.jpg");
-    height:600px;
+    height:550px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
 }
 
 /* about the sections */
@@ -222,6 +238,7 @@ header{
 .sections1{
     background:black;
     height:2000px;
+    overflow:hidden;
 }
 
 
@@ -230,30 +247,34 @@ header{
     color:rgb(214, 214, 214);
     font-size:61px;
     padding-top:400px;
-    text-align:center;
+    
 }
 .ch{
     color:rgb(214, 214, 214);
     font-size:50px;
     padding-top:190px;
     padding-left:40px;
+   
 }
 .knowing{
     color:rgb(214, 214, 214);
     font-size:50px;
     padding-top:120px;
      padding-left:40px;
+    
 }
 .jtk{
     color:rgb(214, 214, 214);
     font-size:50px;
     padding-top:120px;
     padding-left:40px;
+   
 }
 .intro1{
     color:rgb(214, 214, 214);
     padding-left:40px;
     font-size:35px;
+
 }
 
 /* data anime transição para aparecer quando scroll down */ 
@@ -268,4 +289,82 @@ header{
 [data-anime].animate{
     opacity:1;
     transform:translate3d(0px, 0px, 0px);
+}
+
+
+
+
+
+
+/* PROGRAMMING.HTML */
+
+
+.whatf{
+    background-image:url('./payton_alone.jpg');
+    height:450px;
+
+}
+.sec2p{
+    background:black;
+    height:600px;
+}
+
+/* digitado */
+.h2p{
+    font-size:30px;
+    color:white;
+    padding-top:200px;
+    text-align:left;
+    padding-left:20px;
+}
+p.pp{
+    font-size:20px;
+    color:gray;
+    padding-top:20px;
+    padding-left:15px;
+}
+
+
+
+
+/* LANGUAGE.HTML */
+
+.lang1sec{
+    background-image:url("./moomeier_at_the_mirror.jpg");
+    height:450px;
+}
+h2.h2lang{
+    padding-top:300px;
+    padding-left:30px;
+    font-size:30px;
+    color:white;
+}
+.pl{
+    font-size:25px;
+    color:gray;
+    padding-top:50px;
+    padding-left: 50px;
+}
+
+
+
+/* ABOUTME.HTML */
+
+.ab1sec{
+    background-image:url("./payton_sitting.jpg");
+    background-size:400px;
+    height:450px;
+}
+.h2about{
+    padding-top:300px;
+    padding-left:30px;
+    font-size:40px;
+    color:white;
+    text-align:center;
+}
+.pab{
+    font-size:30px;
+    color:gray;
+    padding-top:50px;
+    padding-left: 50px;
 }
