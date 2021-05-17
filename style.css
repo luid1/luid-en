@@ -16,6 +16,9 @@ nav{
     border-bottom: 2px solid rgb(78, 78, 78);
     z-index:1000;
 }
+nav.active{
+    opacity:1;
+}
 /* introduce */
 
 .introd1{

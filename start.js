@@ -7,6 +7,7 @@ const aboutv = document.querySelector(".aboutv");
 const opened2 = document.querySelector(".aboutbopened");
 const about = document.querySelector(".aboutb");
 const sectionInt = document.querySelector(".sections1");
+const nav= document.querySelector("nav");
 vez.addEventListener("click", ()=>{
     aboutv.classList.toggle("active");
     vez.classList.toggle("active");
@@ -14,6 +15,7 @@ vez.addEventListener("click", ()=>{
     vez2.classList.toggle("active");
     opened1.classList.toggle("active");
     sectionInt.classList.toggle("active");
+    nav.classList.toggle("active");
     opened2.classList.remove("active");
     about.classList.remove("active");
     barra.classList.remove("active");
@@ -30,13 +32,13 @@ barra.addEventListener("click", ()=>{
     barra2.classList.toggle("active");
     opened2.classList.toggle("active");
     sectionInt.classList.toggle("active");
+    nav.classList.toggle("active");
     opened1.classList.remove("active");
     aboutv.classList.remove("active");
     vez.classList.remove("active");
     vez1.classList.remove("active");
     vez2.classList.remove("active");
 });
-
 
 /* scoll */
 const target = document.querySelectorAll('[data-anime]')
