@@ -6,17 +6,21 @@
 
 }
 nav{
+    transition:2s;
+    transition-delay: 0.4s;
     position:fixed;
     display:flex;
     justify-content: space-between;
     width:100%;
-    opacity:80%;
+    opacity:90%;
     height:45px;
-    background:rgb(0, 0, 0);
-    border-bottom: 2px solid rgb(78, 78, 78);
+    background:rgb(8, 8, 8);
+    border-bottom: 2px solid rgb(41, 41, 41);
     z-index:1000;
 }
 nav.active{
+    transition:2s;
+    transition-delay: 0.6s;
     opacity:1;
 }
 /* introduce */
@@ -39,8 +43,8 @@ div.logo{
     background-size:45px;
     height:45px;
     width:45px;
-    background-image: black;
     cursor: pointer;
+    opacity:1;
 }
 /*os vezinhos da nav */
 .vezinho{
@@ -278,7 +282,7 @@ section.intint{
 
 /* introdution css */
 .hello{
-    color:rgb(214, 214, 214);
+    color:rgb(195, 221, 255);
     font-size:47px;
     padding-top:400px;
     text-align:center;
