@@ -141,25 +141,29 @@ div.logo{
     opacity:1;
     position:absolute;
     width:100%;
-    transition:2s;
-    margin-top:2.84rem;
+    transition:1s;
+    transition-delay:0.6s;
+    margin-top:2.8rem;
     position:fixed;
     z-index: 1000;
 }
 .aboutv.active{
     padding-top:40px;
     height:100%;
+    transition:1.4s;
+    transition-delay: 1s;
 }
 .aboutvopened{
     opacity:0;
-    transition:0.5s;
-    transition-delay:1s;
+    transition:0.2s;
+    transition-delay:0.6s;
     pointer-events:none;
 }
 .aboutvopened.active{
     opacity:1;
     pointer-events: all;
-    transition-delay:0;
+    transition-delay:1.6s;
+    
 }
 
 /* sobre mim aberto com bzinho*/
@@ -171,26 +175,30 @@ div.logo{
     opacity:1;
     position:absolute;
     width:100%;
-    margin-top:2.84rem;
-    transition:2s;
+    margin-top:2.8rem;
+    transition:1s;
+    transition-delay:0.6s;
     position:fixed;
     z-index: 1000;
 }
 .aboutb.active{
-    padding-top:50px;
+    padding-top:40px;
     height:100%;
+    transition:1.4s;
+    transition-delay: 1s;
 }
  
 .aboutbopened{
     opacity:0;
-    transition:0.5s;
-    transition-delay:0.3s;
+    transition:0.2s;
+    transition-delay:0.6s;
     pointer-events:none;
 }
 
 .aboutbopened.active{
-    opacity:1;    
-    pointer-events:all;
+    opacity:1;
+    pointer-events: all;
+    transition-delay:1.6s;
 }
 
 
@@ -243,12 +251,14 @@ div.logo{
 div.holditall{
     background:black;
     padding-top:2px;
+    padding-bottom:20px;
 }
 .sections1{
     background:black;
 }
 section.introducing2{
     padding-top:10px;
+    padding:60px;
     background-color:rgb(63, 63, 63);
     border:13px solid rgb(63, 63, 63);
     border-radius:20px;
@@ -256,7 +266,6 @@ section.introducing2{
     margin-left:30px;
     margin-right:30px;
     display:flex;
-    text-align:center;
     align-items: center;
     flex-direction:column;
 }
@@ -281,6 +290,10 @@ section.intint{
     font-size:49px;
     padding-top:0;
 }
+.knowing1{
+    text-align:left;
+    justify-content:left;
+}
 .jtk{
     color:rgb(214, 214, 214);
     font-size:49px;
@@ -289,7 +302,7 @@ section.intint{
 .intro1{
     color:rgb(214, 214, 214);
     padding-left:0px;
-    font-size:34px;
+    font-size:27px;
     text-align:left;
 }
 .lilletter{
