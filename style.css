@@ -10,9 +10,10 @@ nav{
     display:flex;
     justify-content: space-between;
     width:100%;
+    opacity:80%;
     height:45px;
-    background:gray;
-    border-bottom: 2px solid black;
+    background:rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(78, 78, 78);
     z-index:1000;
 }
 /* introduce */
@@ -27,6 +28,7 @@ a.introd1{
 
 header{
     background-color:rgb(27, 27, 27);
+    width:100%;
 }
 /* logo da nav */
 div.logo{
@@ -46,13 +48,13 @@ div.logo{
 .vezinho1{
     width:18px;
     height:4px;
-    background:black;
+    background:#292826;;
     transform: rotate(-46deg) translateX(-11px);
 }
 .vezinho2{
     width:20px;
     height:4px;
-    background:black;
+    background:#292826;;
     transform: rotate(45deg) translateX(5px);
 }
 /* vezinho no .active */
@@ -64,13 +66,13 @@ div.logo{
 .vezinho1.active{
     width:20px;
     height:4px;
-    background:black;
+    background:#292826;;
     transform: rotate(46deg) translate(5px, 5px);
 }
 .vezinho2.active{
     width:20px;
     height:4px;
-    background:black;
+    background:#292826;;
     transform: rotate(-45deg) translate(6px, 10px);
 }
 
@@ -94,13 +96,13 @@ div.logo{
 .barra1{
     width:25px;
     height:5px;
-    background:black;
+    background:#121211;
 }
 .barra2{
     margin-top:7px;
     width:25px;
     height:5px;
-    background:black;
+    background:#121211;
 }
 /* barra no .active */
 
@@ -111,13 +113,13 @@ div.logo{
 .barra1.active{
     width:25px;
     height:5px;
-    background:black;
+    background:#121211;
     transform: rotate(42deg) translate(1px, 3px);
 }
 .barra2.active{
     width:25px;
     height:5px;
-    background:black;
+    background:#121211;
     transform: rotate(-42deg) translate(4px, -7px);
 }
 /* transicao vezinho cada */
@@ -145,7 +147,7 @@ div.logo{
     z-index: 1000;
 }
 .aboutv.active{
-    padding-top:50px;
+    padding-top:40px;
     height:100%;
 }
 .aboutvopened{
@@ -227,54 +229,71 @@ div.logo{
 }
 /* primeira fotinha de cima "abertura" */
 .abertura{
-    background-image:url("./payton.jpg");
+    background-image:url("./colordifferent.jpg");
     height:550px;
+    background-size:1000px;
     background-repeat: no-repeat;
     background-position:center;
+    width:100%;
+    margin-right:0;
 }
 
-/* about the sections */
-
+/* about the introduction*/
+/*sections1 part from the colordifferent.jpg*/
+div.holditall{
+    background:black;
+    padding-top:2px;
+}
 .sections1{
     background:black;
-    height:2000px;
-    overflow:hidden;
 }
-
+section.introducing2{
+    padding-top:10px;
+    background-color:rgb(63, 63, 63);
+    border:13px solid rgb(63, 63, 63);
+    border-radius:20px;
+    margin-top:40px;
+    margin-left:30px;
+    margin-right:30px;
+    display:flex;
+    text-align:center;
+    align-items: center;
+    flex-direction:column;
+}
+section.intint{
+    margin-top:170px;
+}
 
 /* introdution css */
 .hello{
     color:rgb(214, 214, 214);
-    font-size:61px;
+    font-size:47px;
     padding-top:400px;
     text-align:center;
 }
 .ch{
     color:rgb(214, 214, 214);
-    font-size:50px;
-    padding-top:190px;
-    padding-left:40px;
-   
+    font-size:49px;
+    padding-top:20px;
 }
 .knowing{
     color:rgb(214, 214, 214);
-    font-size:50px;
-    padding-top:120px;
-     padding-left:40px;
-    
+    font-size:49px;
+    padding-top:0;
 }
 .jtk{
     color:rgb(214, 214, 214);
-    font-size:50px;
-    padding-top:120px;
-    padding-left:40px;
-   
+    font-size:49px;
+    padding-top:0;
 }
 .intro1{
     color:rgb(214, 214, 214);
-    padding-left:40px;
-    font-size:35px;
-
+    padding-left:0px;
+    font-size:34px;
+    text-align:left;
+}
+.lilletter{
+    padding-top:60px;
 }
 
 /* data anime transição para aparecer quando scroll down */ 
