@@ -7,20 +7,84 @@
 }
 nav{
     transition:2s;
-    transition-delay: 0.4s;
+    transition-delay: 2s;
     position:fixed;
     display:flex;
     justify-content: space-between;
     width:100%;
-    opacity:90%;
+    opacity:1;
     height:45px;
     background:rgb(8, 8, 8);
     border-bottom: 2px solid rgb(41, 41, 41);
     z-index:1000;
 }
+/*INICIA EDIÇÃO SIE GERAL*/
+
+/*opções da introdução letras e href*/
+header{
+    text-align:center;
+}
+/*about v sobre */
+.aboutv{
+    display:none;
+}
+/*about pc selecionado inline-block pela nav*/
+nav{
+    opacity:40%;
+}
+.aboutpc{
+    z-index:9999;
+    position:fixed;
+    width:100%;
+}
+div.aboutpcopened li{
+    display:inline-block;
+    text-align:center;
+    margin:10px 30px;
+    opacity:1;
+
+}
+.aboutpcopened a{
+    color:white;
+    opacity:1;
+    text-decoration:none;
+    text-align:right;
+    font-size:20px;
+}
+.baixopc2 a{
+    margin-left:2px;
+}
+.aboutpcopened a:hover{
+    text-decoration:underline;
+}
+/*about b fechado e escondido */
+.aboutb{
+  display:none;
+}
+
+
+@media screen and (max-width:700px){
+    nav{
+        transition:2s;
+        transition-delay: 2s;
+        position:fixed;
+        display:flex;
+        justify-content: space-between;
+        width:100%;
+        opacity:90%;
+        height:45px;
+        background:rgb(8, 8, 8);
+        border-bottom: 2px solid rgb(41, 41, 41);
+        z-index:1000;
+    }
 nav.active{
-    transition:2s;
-    transition-delay: 0.6s;
+    transition:1s;
+    transition-delay:1s;
+    opacity:1;
+}
+nav.aktive{
+    transition:1s;
+    transition-delay: 1s;
     opacity:1;
 }
 /* introduce */
@@ -46,6 +110,10 @@ div.logo{
     cursor: pointer;
     opacity:1;
 }
+
+
+/* mobile */
+
 /*os vezinhos da nav */
 .vezinho{
     margin-top:12px;
@@ -139,9 +207,14 @@ div.logo{
 .barra2, .barra2.active{
     transition: all 1s;
 }
+/*about pc sobre */
+.aboutpc{
+    display:none;
+}
 /* sobre mim, aberto com vezinho */
 
 .aboutv{
+    display:block;
     padding-top:0;
     height:0;
     background-color:rgb(8, 8, 8);
@@ -171,6 +244,9 @@ div.logo{
     pointer-events: all;
     transition-delay:1.6s;
     
+}
+.aboutv li:hover{
+    text-decoration: underline;
 }
 
 /* sobre mim aberto com bzinho*/
@@ -207,7 +283,9 @@ div.logo{
     pointer-events: all;
     transition-delay:1.6s;
 }
-
+.aboutb li:hover{
+    text-decoration: underline;
+}
 
 
 
@@ -224,8 +302,6 @@ div.logo{
     cursor:pointer;
     text-align:center;
     margin-top: 60px;
-
-
 }
 
 
@@ -242,15 +318,23 @@ div.logo{
     text-align:center;
     margin-top: 60px;
 }
+} /*acaba o mobile */
+
+
+
+
+
+
 /* primeira fotinha de cima "abertura" */
 .abertura{
     background-image:url("./colordifferent.jpg");
-    height:550px;
-    background-size:1000px;
+    height:1049px;
+    background-size:1700px;
     background-repeat: no-repeat;
     background-position:center;
     width:100%;
     margin-right:0;
+    max-width:100%;
 }
 
 /* about the introduction*/
@@ -289,12 +373,12 @@ section.intint{
 }
 .ch{
     color:rgb(214, 214, 214);
-    font-size:49px;
+    font-size:40px;
     padding-top:20px;
 }
 .knowing{
     color:rgb(214, 214, 214);
-    font-size:49px;
+    font-size:40px;
     padding-top:0;
 }
 .knowing1{
@@ -303,13 +387,13 @@ section.intint{
 }
 .jtk{
     color:rgb(214, 214, 214);
-    font-size:49px;
+    font-size:40px;
     padding-top:0;
 }
 .intro1{
     color:rgb(214, 214, 214);
     padding-left:0px;
-    font-size:27px;
+    font-size:20px;
     text-align:left;
 }
 .lilletter{
@@ -329,7 +413,6 @@ section.intint{
     opacity:1;
     transform:translate3d(0px, 0px, 0px);
 }
-
 
 
 

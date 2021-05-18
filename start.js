@@ -16,6 +16,7 @@ vez.addEventListener("click", ()=>{
     opened1.classList.toggle("active");
     sectionInt.classList.toggle("active");
     nav.classList.toggle("active");
+    nav.classList.remove("aktive");
     opened2.classList.remove("active");
     about.classList.remove("active");
     barra.classList.remove("active");
@@ -32,7 +33,8 @@ barra.addEventListener("click", ()=>{
     barra2.classList.toggle("active");
     opened2.classList.toggle("active");
     sectionInt.classList.toggle("active");
-    nav.classList.toggle("active");
+    nav.classList.remove("active");
+    nav.classList.toggle("aktive");
     opened1.classList.remove("active");
     aboutv.classList.remove("active");
     vez.classList.remove("active");
