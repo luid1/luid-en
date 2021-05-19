@@ -18,6 +18,16 @@ nav{
     border-bottom: 2px solid rgb(41, 41, 41);
     z-index:1000;
 }
+nav.active{
+    transition:1s;
+    transition-delay:1s;
+    opacity:1;
+}
+nav.aktive{
+    transition:1s;
+    transition-delay: 1s;
+    opacity:1;
+}
 /*INICIA EDIÇÃO SIE GERAL*/
 
 /*opções da introdução letras e href*/
@@ -63,20 +73,195 @@ div.aboutpcopened li{
 }
 
 
+/* primeira fotinha de cima "abertura" */
+.abertura{
+    background-image:url("./colordifferent.jpg");
+    height:500px;
+    background-size:1700px;
+    background-repeat: no-repeat;
+    background-position:center;
+    width:100%;
+    margin-right:0;
+    max-width:100%;
+}
+/* about the introduction*/
+/*sections1 part from the colordifferent.jpg*/
+div.holditall .introducing2{
+    display:inline-block;
+    max-width:400px;
+    width:100%;
+    margin:100px 20px;
+}
+div.holditall{
+    background:black;
+}
+.sections1{
+    background:black;
+}
+section.introducing2{
+    max-width:400px;
+    height:300px;
+    background-color:rgb(63, 63, 63);
+    border:2px solid rgb(63, 63, 63);
+    border-radius:20px;
+    padding:10px 30px;
+    text-align:center;
+    align-items: center;
+}
+section.intint{
+    margin-top:170px;
+}
+
+/* introdution css */
+.hello{
+    color:rgb(195, 221, 255);
+    font-size:47px;
+    padding-top:400px;
+    text-align:center;
+}
+.ch{
+    color:rgb(214, 214, 214);
+    font-size:40px;
+    padding-top:20px;
+}
+.knowing{
+    color:rgb(214, 214, 214);
+    font-size:40px;
+    padding-top:20px;
+}
+.knowing1{
+    text-align:left;
+    justify-content:left;
+}
+.jtk{
+    color:rgb(214, 214, 214);
+    font-size:40px;
+    padding-top:20px;
+}
+.intro1{
+    color:rgb(214, 214, 214);
+    padding-left:20px;
+    font-size:24px;
+    text-align:left;
+}
+.lilletter{
+    padding-top:60px;
+}
+
+/* data anime transição para aparecer quando scroll down */ 
+
+[data-anime]{
+    opacity:0;
+    transition:0.3s;
+}
+[data-anime ="left"]{
+    transform: translate3d(20px, 0, 0);
+}
+[data-anime].animate{
+    opacity:1;
+    transform:translate3d(0px, 0px, 0px);
+}
+
+
+
+
+
+/* PROGRAMMING.HTML */
+
+
+.whatf{
+    background-image:url('./payton_alone.jpg');
+    height:450px;
+
+}
+.sec2p{
+    background:black;
+    height:600px;
+}
+
+/* digitado */
+.h2p{
+    font-size:60px;
+    color:white;
+    padding-top:200px;
+    text-align:center;
+    padding-left:20px;
+}
+p.pp{
+    font-size:30px;
+    color:gray;
+    padding-top:20px;
+    padding-left:15px;
+}
+
+
+
+
+/* LANGUAGE.HTML */
+
+.lang1sec{
+    background-image:url("./moomeier_at_the_mirror.jpg");
+    height:450px;
+}
+h2.h2lang{
+    padding-top:300px;
+    padding-left:30px;
+    font-size:60px;
+    color:white;
+    text-align:center;
+}
+.pl{
+    font-size:30px;
+    color:gray;
+    padding-top:50px;
+    padding-left: 50px;
+}
+
+
+
+/* ABOUTME.HTML */
+
+.ab1sec{
+    background-image:url("./payton_sitting.jpg");
+    background-size:400px;
+    height:450px;
+}
+.h2about{
+    padding-top:300px;
+    padding-left:30px;
+    font-size:40px;
+    color:white;
+    text-align:center;
+}
+.pab{
+    font-size:60px;
+    color:gray;
+    padding-top:100px;
+    padding-left: 50px;
+
+    padding-bottom:50px;
+}
+.pab2{
+    font-size:25px;
+    color:gray;
+    padding-top:60px;
+    padding-left:60px;
+}
+
 @media screen and (max-width:700px){
-    nav{
-        transition:2s;
-        transition-delay: 2s;
-        position:fixed;
-        display:flex;
-        justify-content: space-between;
-        width:100%;
-        opacity:90%;
-        height:45px;
-        background:rgb(8, 8, 8);
-        border-bottom: 2px solid rgb(41, 41, 41);
-        z-index:1000;
-    }
+nav{
+    transition:2s;
+    transition-delay: 2s;
+    position:fixed;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    opacity:90%;
+    height:45px;
+    background:rgb(8, 8, 8);
+    border-bottom: 2px solid rgb(41, 41, 41);
+    z-index:1000;
+}
 nav.active{
     transition:1s;
     transition-delay:1s;
@@ -252,6 +437,7 @@ div.logo{
 /* sobre mim aberto com bzinho*/
 
 .aboutb{
+    display:block;
     padding-top:0;
     height:0;
     background-color:rgb(8, 8, 8);
@@ -318,38 +504,32 @@ div.logo{
     text-align:center;
     margin-top: 60px;
 }
-} /*acaba o mobile */
+/*GERAL DO MOBILE*/
 
-
-
-
-
-
-/* primeira fotinha de cima "abertura" */
+/*about the collordifferent.jpg*/
 .abertura{
-    background-image:url("./colordifferent.jpg");
-    height:1049px;
-    background-size:1700px;
-    background-repeat: no-repeat;
-    background-position:center;
-    width:100%;
-    margin-right:0;
-    max-width:100%;
+    height:600px;
+    width:720px;;
 }
 
-/* about the introduction*/
-/*sections1 part from the colordifferent.jpg*/
+/*background cards introduction2*/
+
+
+
 div.holditall{
     background:black;
     padding-top:2px;
-    padding-bottom:20px;
+    padding-bottom:10px;
 }
 .sections1{
     background:black;
+    width:100%;
+    height:100%;
 }
 section.introducing2{
     padding-top:10px;
     padding:60px;
+    height:400px;
     background-color:rgb(63, 63, 63);
     border:13px solid rgb(63, 63, 63);
     border-radius:20px;
@@ -363,139 +543,10 @@ section.introducing2{
 section.intint{
     margin-top:170px;
 }
-
-/* introdution css */
-.hello{
-    color:rgb(195, 221, 255);
-    font-size:47px;
-    padding-top:400px;
-    text-align:center;
-}
-.ch{
-    color:rgb(214, 214, 214);
-    font-size:40px;
-    padding-top:20px;
-}
-.knowing{
-    color:rgb(214, 214, 214);
-    font-size:40px;
-    padding-top:0;
-}
-.knowing1{
-    text-align:left;
-    justify-content:left;
-}
-.jtk{
-    color:rgb(214, 214, 214);
-    font-size:40px;
-    padding-top:0;
-}
-.intro1{
-    color:rgb(214, 214, 214);
-    padding-left:0px;
-    font-size:20px;
-    text-align:left;
-}
-.lilletter{
-    padding-top:60px;
+div.holditall .introducing2{
+    margin:10px 20px;
 }
 
-/* data anime transição para aparecer quando scroll down */ 
-
-[data-anime]{
-    opacity:0;
-    transition:0.3s;
-}
-[data-anime ="left"]{
-    transform: translate3d(20px, 0, 0);
-}
-[data-anime].animate{
-    opacity:1;
-    transform:translate3d(0px, 0px, 0px);
-}
+} /*acaba o mobile */
 
 
-
-
-
-/* PROGRAMMING.HTML */
-
-
-.whatf{
-    background-image:url('./payton_alone.jpg');
-    height:450px;
-
-}
-.sec2p{
-    background:black;
-    height:600px;
-}
-
-/* digitado */
-.h2p{
-    font-size:60px;
-    color:white;
-    padding-top:200px;
-    text-align:center;
-    padding-left:20px;
-}
-p.pp{
-    font-size:30px;
-    color:gray;
-    padding-top:20px;
-    padding-left:15px;
-}
-
-
-
-
-/* LANGUAGE.HTML */
-
-.lang1sec{
-    background-image:url("./moomeier_at_the_mirror.jpg");
-    height:450px;
-}
-h2.h2lang{
-    padding-top:300px;
-    padding-left:30px;
-    font-size:60px;
-    color:white;
-    text-align:center;
-}
-.pl{
-    font-size:30px;
-    color:gray;
-    padding-top:50px;
-    padding-left: 50px;
-}
-
-
-
-/* ABOUTME.HTML */
-
-.ab1sec{
-    background-image:url("./payton_sitting.jpg");
-    background-size:400px;
-    height:450px;
-}
-.h2about{
-    padding-top:300px;
-    padding-left:30px;
-    font-size:40px;
-    color:white;
-    text-align:center;
-}
-.pab{
-    font-size:60px;
-    color:gray;
-    padding-top:100px;
-    padding-left: 50px;
-
-    padding-bottom:50px;
-}
-.pab2{
-    font-size:25px;
-    color:gray;
-    padding-top:60px;
-    padding-left:60px;
-}

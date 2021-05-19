@@ -34,7 +34,7 @@ barra.addEventListener("click", ()=>{
     opened2.classList.toggle("active");
     sectionInt.classList.toggle("active");
     nav.classList.remove("active");
-    nav.classList.toggle("aktive");
+    nav.classList.add("aktive");
     opened1.classList.remove("active");
     aboutv.classList.remove("active");
     vez.classList.remove("active");
