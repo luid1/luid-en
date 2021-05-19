@@ -54,8 +54,10 @@ div.aboutpcopened li{
     opacity:1;
 
 }
+
+
 .aboutpcopened a{
-    color:white;
+    color:rgb(224, 205, 205);
     opacity:1;
     text-decoration:none;
     text-align:right;
@@ -66,6 +68,9 @@ div.aboutpcopened li{
 }
 .aboutpcopened a:hover{
     text-decoration:underline;
+    color:rgb(255, 255, 255);
+    transition:0.4s;
+    transition-delay:0.6s;
 }
 /*about b fechado e escondido */
 .aboutb{
@@ -151,15 +156,8 @@ section.intint{
 /* data anime transição para aparecer quando scroll down */ 
 
 [data-anime]{
-    opacity:0;
-    transition:0.3s;
-}
-[data-anime ="left"]{
-    transform: translate3d(20px, 0, 0);
-}
-[data-anime].animate{
     opacity:1;
-    transform:translate3d(0px, 0px, 0px);
+    transition:0.3s;
 }
 
 
@@ -279,7 +277,13 @@ nav.aktive{
     font-size:32px;
 }
 a.introd1{
+    
     text-decoration:none;
+}
+a.introd1:hover{
+    color:white;
+    transition:2s;
+    transition-delay:0.4s;
 }
 
 header{
@@ -432,6 +436,7 @@ div.logo{
 }
 .aboutv li:hover{
     text-decoration: underline;
+    color:rgb(255, 255, 255);
 }
 
 /* sobre mim aberto com bzinho*/
@@ -483,7 +488,11 @@ div.logo{
     color:gray;
     cursor:pointer;
 }
-
+.baixov1:hover{
+    color:white;
+    transition:2s;
+    transition-delay:0.3s;
+}
 .baixov2{
     cursor:pointer;
     text-align:center;
@@ -498,6 +507,11 @@ div.logo{
     font-size:30px;
     color:gray;
     cursor:pointer;
+}
+.baixob1:hover{
+    color:white;
+    transition:2s;
+    transition-delay:0.4s;
 }
 .baixob2{
     cursor:pointer;
@@ -547,7 +561,7 @@ section.intint{
 div.holditall .introducing2{
     margin:10px 20px;
 }
-ch{
+.ch{
     color:rgb(214, 214, 214);
     font-size:36px;
     padding-top:20px;
