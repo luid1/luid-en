@@ -5,6 +5,9 @@
     font-family: sans-serif;
 
 }
+body{
+    z-index:2;
+}
 nav.pc{
     transition:2s;
     transition-delay: 2s;
@@ -30,9 +33,9 @@ div.barrapc{
     cursor:pointer;
     display:block;
     position:relative;
-    top:10px;
+    top:0;
     right:20px;
-    z-index:2;
+    z-index:3000;
 }
 .barra1pc{
     width:25px;
@@ -164,6 +167,9 @@ div.aboutpcopened li{
 }
 ul.aboutpcopened{
     z-index:1;
+    position:fixed;
+    width:100%;
+    top:0;
 }
 
 .aboutpcopened a{
