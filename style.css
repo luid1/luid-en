@@ -40,13 +40,13 @@ div.barrapc{
 .barra1pc{
     width:25px;
     height:5px;
-    background:#ffff00;
+    background:#555550;
 }
 .barra2pc{
     margin-top:7px;
     width:25px;
     height:5px;
-    background:#ffff00;
+    background:#555550;
 }
 /* barra no .active */
 
@@ -153,6 +153,7 @@ header{
 nav{
     opacity:70%;
 }
+
 .aboutpc{
     z-index:1000;
     position:fixed;
@@ -517,6 +518,9 @@ div.logo{
 }
 .barra2, .barra2.active{
     transition: all 1s;
+}
+div.barrapc{
+    display:none;
 }
 /*about pc sobre */
 .aboutbpc{
