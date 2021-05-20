@@ -5,29 +5,135 @@
     font-family: sans-serif;
 
 }
-nav{
+nav.pc{
     transition:2s;
     transition-delay: 2s;
     position:fixed;
     display:flex;
     justify-content: space-between;
     width:100%;
-    opacity:1;
+    opacity:60%;
     height:45px;
     background:rgb(8, 8, 8);
     border-bottom: 2px solid rgb(41, 41, 41);
-    z-index:1000;
+    z-index:1;
 }
-nav.active{
-    transition:1s;
-    transition-delay:1s;
+
+/* as barras da nav*/
+
+div.barrapc{
+    transition:all 1s;
+    height:100%;
+    width:20%;
+    margin-top:15px;
+    margin-right: 20px;
+    cursor:pointer;
+    display:block;
+    position:relative;
+    top:10px;
+    right:20px;
+    z-index:2;
+}
+.barra1pc{
+    width:25px;
+    height:5px;
+    background:#ffff00;
+}
+.barra2pc{
+    margin-top:7px;
+    width:25px;
+    height:5px;
+    background:#ffff00;
+}
+/* barra no .active */
+
+.barrapc.active{
+    height:100%;
+    margin-top:18px;
+}
+.barra1pc.active{
+    width:25px;
+    height:5px;
+    background:#b6b67e;
+    transform: rotate(42deg) translate(1px, 3px);
+}
+.barra2pc.active{
+    width:25px;
+    height:5px;
+    background:#7c7c59;
+    transform: rotate(-42deg) translate(4px, -7px);
+}
+/* transicao vezinho cada */
+.barrapc, .barrapc.active{
+    transition: all 1s;
+}
+.barra1pc, .barra1pc.active{
+    transition: all 0.97s;
+}
+.barra2pc, .barra2pc.active{
+    transition: all 1s;
+}
+/* sobre mim aberto com bzinho*/
+
+.aboutbpc{
+    display:none;
+    padding-top:0;
+    height:20%;
+    background-color:rgb(8, 8, 8);
     opacity:1;
-}
-nav.aktive{
+    position:absolute;
+    width:100%;
+    margin-top:2.8rem;
     transition:1s;
+    transition-delay:0.6s;
+    position:fixed;
+    z-index: 1000;
+}
+.aboutbpc.active{
+    padding-top:40px;
+    height:100%;
+    transition:1.4s;
     transition-delay: 1s;
-    opacity:1;
 }
+ 
+.aboutbpcopened{
+    opacity:0;
+    transition:0.2s;
+    transition-delay:0.6s;
+    pointer-events:none;
+}
+
+/* opnening the b */
+
+.baixob1pc{
+    text-decoration: none;
+    font-size:30px;
+    color:gray;
+    cursor:pointer;
+}
+.baixobpc1:hover{
+    color:white;
+    transition:2s;
+    transition-delay:0.4s;
+}
+.baixob2pc{
+    cursor:pointer;
+    text-align:center;
+    margin-top: 60px;
+}
+div.aboutbpcopened ul{
+    width:20%;
+}
+.aboutbpcopened.active{
+    opacity:1;
+    pointer-events: all;
+    transition-delay:1.6s;
+}
+.aboutbpc li:hover{
+    text-decoration: underline;
+}
+
+
 /*INICIA EDIÇÃO SIE GERAL*/
 
 /*opções da introdução letras e href*/
@@ -38,12 +144,14 @@ header{
 .aboutv{
     display:none;
 }
+/*barrapc sobre*/
+
 /*about pc selecionado inline-block pela nav*/
 nav{
-    opacity:40%;
+    opacity:70%;
 }
 .aboutpc{
-    z-index:9999;
+    z-index:1000;
     position:fixed;
     width:100%;
 }
@@ -52,9 +160,11 @@ div.aboutpcopened li{
     text-align:center;
     margin:10px 30px;
     opacity:1;
-
+    z-index:1000;
 }
-
+ul.aboutpcopened{
+    z-index:1;
+}
 
 .aboutpcopened a{
     color:rgb(224, 205, 205);
@@ -62,6 +172,7 @@ div.aboutpcopened li{
     text-decoration:none;
     text-align:right;
     font-size:20px;
+    width:70%;
 }
 .baixopc2 a{
     margin-left:2px;
@@ -247,7 +358,7 @@ h2.h2lang{
 }
 
 @media screen and (max-width:700px){
-nav{
+nav.mobile{
     transition:2s;
     transition-delay: 2s;
     position:fixed;
@@ -260,12 +371,12 @@ nav{
     border-bottom: 2px solid rgb(41, 41, 41);
     z-index:1000;
 }
-nav.active{
+nav.mobile.active{
     transition:1s;
     transition-delay:1s;
     opacity:1;
 }
-nav.aktive{
+nav.mobile.aktive{
     transition:1s;
     transition-delay: 1s;
     opacity:1;
@@ -368,8 +479,13 @@ div.logo{
     height:5px;
     background:#121211;
 }
+.barrapc{
+    display:none;
+}
 /* barra no .active */
-
+.aboutpc{
+    display:none;
+}
 .barra.active{
     height:100%;
     margin-top:18px;
@@ -397,7 +513,7 @@ div.logo{
     transition: all 1s;
 }
 /*about pc sobre */
-.aboutpc{
+.aboutbpc{
     display:none;
 }
 /* sobre mim, aberto com vezinho */

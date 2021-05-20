@@ -7,7 +7,7 @@ const aboutv = document.querySelector(".aboutv");
 const opened2 = document.querySelector(".aboutbopened");
 const about = document.querySelector(".aboutb");
 const sectionInt = document.querySelector(".sections1");
-const nav= document.querySelector("nav");
+const nav= document.querySelector("nav.mobile");
 vez.addEventListener("click", ()=>{
     aboutv.classList.toggle("active");
     vez.classList.toggle("active");
@@ -34,7 +34,7 @@ barra.addEventListener("click", ()=>{
     opened2.classList.toggle("active");
     sectionInt.classList.toggle("active");
     nav.classList.remove("active");
-    nav.classList.add("aktive");
+    nav.classList.toggle("aktive");
     opened1.classList.remove("active");
     aboutv.classList.remove("active");
     vez.classList.remove("active");
