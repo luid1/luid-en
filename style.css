@@ -5,9 +5,7 @@
     font-family: sans-serif;
 
 }
-body{
-    z-index:2;
-}
+
 nav.pc{
     transition:2s;
     transition-delay: 2s;
@@ -19,7 +17,6 @@ nav.pc{
     height:45px;
     background:rgb(8, 8, 8);
     border-bottom: 2px solid rgb(41, 41, 41);
-    z-index:1;
 }
 
 /* as barras da nav*/
@@ -31,11 +28,11 @@ div.barrapc{
     margin-top:15px;
     margin-right: 20px;
     cursor:pointer;
-    display:block;
-    position:relative;
+    display:inline-block;
+    position:fixed;
     top:0;
     right:20px;
-    z-index:3000;
+    z-index:3;
 }
 .barra1pc{
     width:25px;
@@ -164,13 +161,12 @@ div.aboutpcopened li{
     text-align:center;
     margin:10px 30px;
     opacity:1;
-    z-index:1000;
 }
 ul.aboutpcopened{
-    z-index:1;
     position:fixed;
     width:100%;
     top:0;
+    display:none;
 }
 
 .aboutpcopened a{
@@ -195,7 +191,10 @@ ul.aboutpcopened{
   display:none;
 }
 
-
+.barrapc{
+    position:relative;
+    display:block;
+}
 /* primeira fotinha de cima "abertura" */
 .abertura{
     background-image:url("./colordifferent.jpg");
@@ -213,10 +212,15 @@ div.holditall .introducing2{
     display:inline-block;
     max-width:400px;
     width:100%;
-    margin:100px 20px;
+    margin:10px 20px;
 }
 div.holditall{
     background:black;
+
+}
+div.hoditall .introducing2{
+      padding:0;
+    margin-top:0;
 }
 .sections1{
     background:black;
@@ -227,12 +231,12 @@ section.introducing2{
     background-color:rgb(63, 63, 63);
     border:2px solid rgb(63, 63, 63);
     border-radius:20px;
-    padding:10px 30px;
+    padding:10px 20px;
     text-align:center;
     align-items: center;
 }
 section.intint{
-    margin-top:170px;
+    margin-top:140px;
 }
 
 /* introdution css */
@@ -261,6 +265,11 @@ section.intint{
     font-size:40px;
     padding-top:20px;
 }
+.knowso{
+    color:rgb(214, 214, 214);
+    font-size:37px;
+    padding-top:10px;
+}
 .intro1{
     color:rgb(214, 214, 214);
     padding-left:20px;
@@ -274,8 +283,7 @@ section.intint{
 /* data anime transição para aparecer quando scroll down */ 
 
 [data-anime]{
-    opacity:1;
-    transition:0.3s;
+   display:none;
 }
 
 
@@ -327,12 +335,18 @@ h2.h2lang{
     text-align:center;
 }
 .pl{
-    font-size:30px;
+    font-size:40px;
+    color:gray;
+    padding-top:180px;
+    padding-left: 50px;
+}
+.pl2{
+    font-size:27px;
     color:gray;
     padding-top:50px;
     padding-left: 50px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
-
 
 
 /* ABOUTME.HTML */
@@ -407,6 +421,9 @@ a.introd1:hover{
 header{
     background-color:rgb(27, 27, 27);
     width:100%;
+}
+header::-webkit-scrollbar{
+    display:none;
 }
 /* logo da nav */
 div.logo{
@@ -541,8 +558,11 @@ div.barrapc{
     margin-top:2.8rem;
     position:fixed;
     z-index: 1000;
+    
 }
+
 .aboutv.active{
+    overflow:hidden;
     padding-top:40px;
     height:100%;
     transition:1.4s;
@@ -626,6 +646,7 @@ div.barrapc{
 }
 
 
+
 /* opnening the b */
 
 .baixob1{
@@ -658,7 +679,7 @@ div.barrapc{
 
 
 div.holditall{
-    width:88%;
+    width:89%;
     background:black;
     padding-top:2px;
     padding-bottom:10px;
@@ -683,40 +704,78 @@ section.introducing2{
 }
 section.intint{
     margin-top:170px;
+    text-align:center;
+    padding-left:20%;
 }
+[data-anime]{
+    opacity:0;
+    transition:0.3s;
+}
+
+[data-anime=*left*]{
+    transform:translate3d(0, -60px, 0);
+}
+[data-anime].animate{
+    opacity:1;
+    transform:translate3d(0px, 0px, 0px);
+}
+
+
+
+
 div.holditall .introducing2{
     margin:10px 20px;
+    text-align:center;
 }
 .ch{
     color:rgb(214, 214, 214);
     font-size:36px;
     padding-top:20px;
+    text-align:left;
+
+}
+p.cha{
+    text-align:left;
+    padding-left:0;
 }
 .knowing{
     color:rgb(214, 214, 214);
     font-size:36px;
     padding-top:20px;
+    text-align:center;
+
 }
 .knowing1{
-    text-align:left;
-    justify-content:left;
+    text-align:center;
+    justify-content:center;
+    text-align:center;
 }
 .jtk{
     color:rgb(214, 214, 214);
     font-size:36px;
     padding-top:20px;
+    text-align:center;
 }
 .intro1{
     color:rgb(214, 214, 214);
     padding-left:20px;
     font-size:19px;
-    text-align:left;
+    text-align:center;
+    text-align:center;
+
 }
 .lilletter{
     padding-top:60px;
 }
 
+/*languages index */
+p.pl{
+    text-align:center;
 
+}
+p.pl2{
+    text-align:center;
+}
 } /*acaba o mobile */
 
 
