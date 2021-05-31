@@ -23,7 +23,7 @@ nav.pc{
 
 div.barrapc{
     transition:all 1s;
-    height:100%;
+    height:4%;
     width:20%;
     margin-top:15px;
     margin-right: 20px;
@@ -152,9 +152,8 @@ nav{
 }
 
 .aboutpc{
-    z-index:1000;
     position:fixed;
-    width:100%;
+    width:70%;
 }
 div.aboutpcopened li{
     display:inline-block;
@@ -175,7 +174,7 @@ ul.aboutpcopened{
     text-decoration:none;
     text-align:right;
     font-size:20px;
-    width:70%;
+    width:10%;
 }
 .baixopc2 a{
     margin-left:2px;
@@ -192,8 +191,7 @@ ul.aboutpcopened{
 }
 
 .barrapc{
-    position:relative;
-    display:block;
+    display:none;
 }
 /* primeira fotinha de cima "abertura" */
 .abertura{
@@ -213,13 +211,15 @@ div.holditall .introducing2{
     max-width:400px;
     width:100%;
     margin:10px 20px;
+    
 }
 div.holditall{
     background:black;
-
+    height:660px;
+    margin-top: 300px;
 }
 div.hoditall .introducing2{
-      padding:0;
+    padding:0;
     margin-top:0;
 }
 .sections1{
@@ -234,6 +234,12 @@ section.introducing2{
     padding:10px 20px;
     text-align:center;
     align-items: center;
+    cursor:pointer;
+    transition:0.7s;
+}
+section.introducing2:hover{
+    transition:0.7s;
+    height:400px;
 }
 section.intint{
     margin-top:140px;
@@ -270,11 +276,29 @@ section.intint{
     font-size:37px;
     padding-top:10px;
 }
+
 .intro1{
     color:rgb(214, 214, 214);
     padding-left:20px;
     font-size:24px;
     text-align:left;
+}
+.cadeira-num-campo{
+    background-image: url("./WhatsApp\ Image\ 2021-05-30\ at\ 3.57.05\ PM.jpeg");
+    background-position: center;
+    background-size:1100px;
+    height:600px;
+}
+.wiw{
+    padding-top:100px;
+    color:rgb(0, 0, 0);
+    font-size:60px;
+    padding-bottom:100px;
+}
+.intr1{
+    color:rgb(17, 16, 16);
+    font-size:29px;
+    text-align:center;
 }
 .lilletter{
     padding-top:60px;
@@ -324,8 +348,12 @@ p.pp{
 /* LANGUAGE.HTML */
 
 .lang1sec{
-    background-image:url("./moomeier_at_the_mirror.jpg");
+    background-image:url("./flower.jpg");
     height:450px;
+    margin:auto;
+    background-repeat:no-repeat;
+    background-size:400px;
+    background-position: center;
 }
 h2.h2lang{
     padding-top:300px;
@@ -377,7 +405,51 @@ h2.h2lang{
     padding-top:60px;
     padding-left:60px;
 }
-
+/* sobre a última linha e redes sociais*/
+.sectiondalinha-debaixo{
+    background:rgb(0, 0, 0);
+    height:260px;
+}
+ul.redes-sociais-ul{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+}
+ul.redes-sociais-ul li{
+    margin: 60px;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.linharedes-sociais{
+    border-bottom: 3px solid gray;
+    margin:20px 20px;
+    transition:0.9s;
+    transition-delay: 1s;
+}
+div.textinho-debaixo-da-linha{
+    text-align:right;
+    padding-right:20px;
+    padding-top:-10px;
+    font-size:20px;
+    color:gray;
+}
+.fa-twitter{
+    color:	#1DA1F2;
+}
+.fa-envelope-square{
+    color:#BB001B;
+}
+.fa-instagram{
+    color:#8a3ab9;
+}
+.redes-sociais ul li:hover{
+    color:white;
+    font-size:67px;
+    transition: 0.7s;
+}
+.redes-sociais ul li{
+    transition: 0.7s;
+}
 @media screen and (max-width:700px){
 nav.mobile{
     transition:2s;
@@ -679,10 +751,10 @@ div.barrapc{
 
 
 div.holditall{
-    width:89%;
     background:black;
     padding-top:2px;
     padding-bottom:10px;
+    height: 1000px;
 }
 .sections1{
     background:black;
@@ -764,10 +836,29 @@ p.cha{
     text-align:center;
 
 }
+.wiw{
+    padding-top:100px;
+    color:rgb(0, 0, 0);
+    font-size:40px;
+    padding-bottom:100px;
+}
+.intr1{
+    color:rgb(17, 16, 16);
+    font-size:23px;
+}
 .lilletter{
     padding-top:60px;
 }
+/* linha final e redes-sociais*/
 
+.redes-sociais ul li:hover{
+    color:white;
+    font-size:67px;
+    transition: 0.7s;
+}
+.redes-sociais ul li{
+    transition: 0.7s;
+}
 /*languages index */
 p.pl{
     text-align:center;
