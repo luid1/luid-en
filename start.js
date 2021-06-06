@@ -41,7 +41,14 @@ barra.addEventListener("click", ()=>{
     vez1.classList.remove("active");
     vez2.classList.remove("active");
 });
+const opened3 = document.querySelector(".aboutbpcopened");
+const aboutpc = document.querySelector(".aboutbpc");
+const barrapc = document.querySelector(".barrapc");
 
+barrapc.addEventListener("click", ()=>{
+    opened3.classList.toggle("active");
+    aboutpc.classList.toggle("active");
+});
 /* scoll */
 const target = document.querySelectorAll('[data-anime]')
 const animationClass = 'animate';

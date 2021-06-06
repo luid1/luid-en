@@ -22,17 +22,17 @@ nav.pc{
 /* as barras da nav*/
 
 div.barrapc{
+    cursor:pointer;
     transition:all 1s;
     height:4%;
     width:20%;
     margin-top:15px;
     margin-right: 20px;
-    cursor:pointer;
     display:inline-block;
     position:fixed;
     top:0;
     right:20px;
-    z-index:3;
+    z-index:3000;
 }
 .barra1pc{
     width:25px;
@@ -185,6 +185,51 @@ ul.aboutpcopened{
     transition:0.4s;
     transition-delay:0.6s;
 }
+/* aboutbpcopened */ 
+.aboutbpc{
+    display:block;
+    padding-top:0;
+    height:0;
+    background-color:rgb(8, 8, 8);
+    opacity:1;
+    transition:1s;
+    transition-delay:0.6s;
+    left:1100px;
+}
+.aboutbpc.active{
+    height:100%;
+    transition:1.4s;
+    transition-delay: 1s;
+}
+.aboutbpcopened{
+    opacity:0;
+    transition:0.2s;
+    transition-delay:0.6s;
+    pointer-events:none;
+}
+.aboutbpcopened.active{
+    opacity:1;
+    pointer-events: all;
+    transition-delay:1.6s;
+}
+.aboutbpcopened ul{
+    list-style: none;
+}
+.baixobpc2{
+    cursor:pointer;
+    text-align:center;
+    margin-top: 60px;
+    font-size:40px;
+}
+.baixobpc1{
+    text-decoration:none;
+    color:white;
+    font-size:40px
+}
+.introd1{
+    text-decoration:none;
+    color:white;
+}
 /*about b fechado e escondido */
 .aboutb{
   display:none;
@@ -208,15 +253,13 @@ ul.aboutpcopened{
 /*sections1 part from the colordifferent.jpg*/
 div.holditall .introducing2{
     display:inline-block;
-    max-width:400px;
-    width:100%;
-    margin:10px 20px;
-    
 }
+
 div.holditall{
     background:black;
     height:660px;
-    margin-top: 300px;
+    margin-top: 100px;
+    padding:20px 70px;
 }
 div.hoditall .introducing2{
     padding:0;
@@ -226,23 +269,24 @@ div.hoditall .introducing2{
     background:black;
 }
 section.introducing2{
-    max-width:400px;
-    height:300px;
+    height:100px;
     background-color:rgb(63, 63, 63);
     border:2px solid rgb(63, 63, 63);
     border-radius:20px;
-    padding:10px 20px;
+    padding:10px 60px;
     text-align:center;
     align-items: center;
     cursor:pointer;
     transition:0.7s;
+    transition-delay: 0.3s;
 }
 section.introducing2:hover{
     transition:0.7s;
-    height:400px;
+    height:300px;
 }
+
 section.intint{
-    margin-top:140px;
+    margin-top:40px;
 }
 
 /* introdution css */
@@ -301,7 +345,8 @@ section.intint{
     text-align:center;
 }
 .lilletter{
-    padding-top:60px;
+    padding-top:70px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* data anime transição para aparecer quando scroll down */ 
@@ -348,31 +393,45 @@ p.pp{
 /* LANGUAGE.HTML */
 
 .lang1sec{
-    background-image:url("./flower.jpg");
+    background-image:url("./images\ \(4\).jpg");
     height:450px;
     margin:auto;
     background-repeat:no-repeat;
     background-size:400px;
     background-position: center;
 }
+.englishexp{
+      background-image: url("./download.jpg");
+    height:700px;
+    background-repeat:no-repeat;
+    background-size:1100px;
+    margin:auto;
+    background-position:center;
+    margin-bottom:100px;
+}
+.frenchexp{
+    background-image: url("./images.jpg");
+    height:700px;
+    background-repeat:no-repeat;
+    margin:auto;
+    background-position:center;
+    background-size:1100px;
+}
 h2.h2lang{
     padding-top:300px;
-    padding-left:30px;
     font-size:60px;
     color:white;
     text-align:center;
 }
 .pl{
     font-size:40px;
-    color:gray;
+    color:white;
     padding-top:180px;
-    padding-left: 50px;
 }
 .pl2{
     font-size:27px;
-    color:gray;
-    padding-top:50px;
-    padding-left: 50px;
+    color:white;
+    padding-top:90px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
@@ -380,30 +439,53 @@ h2.h2lang{
 /* ABOUTME.HTML */
 
 .ab1sec{
-    background-image:url("./payton_sitting.jpg");
+    background-image:url("./studing.jpg");
     background-size:400px;
     height:450px;
+    margin-bottom: 100px;
+}
+.cursesabtme{
+    background-image: url("./looking.jpg");
+    height:700px;
+    background-repeat:no-repeat;
+    margin:auto;
+    background-position:center;
+    background-size:1000px;
+    margin-bottom: 100px;
+}
+.expsabtme{
+    background-image: url("./notebook.jpg");
+    height:700px;
+    background-repeat:no-repeat;
+    margin:auto;
+    background-position:center;
+    background-size:1000px;
+    margin-bottom: 100px;
+}
+.tdbmeabtme{
+    background-image: url("./drinking.jpg");
+    height:700px;
+    background-repeat:no-repeat;
+    margin:auto;
+    background-position:center;
+    background-size:1000px;
 }
 .h2about{
     padding-top:300px;
-    padding-left:30px;
     font-size:40px;
     color:white;
     text-align:center;
 }
 .pab{
     font-size:60px;
-    color:gray;
+    color:white;
     padding-top:100px;
-    padding-left: 50px;
-
     padding-bottom:50px;
 }
 .pab2{
     font-size:25px;
-    color:gray;
+    color:white;
     padding-top:60px;
-    padding-left:60px;
 }
 /* sobre a última linha e redes sociais*/
 .sectiondalinha-debaixo{
@@ -451,6 +533,7 @@ div.textinho-debaixo-da-linha{
     transition: 0.7s;
 }
 @media screen and (max-width:700px){
+
 nav.mobile{
     transition:2s;
     transition-delay: 2s;
@@ -461,9 +544,8 @@ nav.mobile{
     opacity:90%;
     height:45px;
     background:rgb(8, 8, 8);
-    border-bottom: 2px solid rgb(41, 41, 41);
-    z-index:1000;
-}
+    border-bottom: 2px solid rgb(41, 41, 41)
+    }
 nav.mobile.active{
     transition:1s;
     transition-delay:1s;
@@ -492,11 +574,8 @@ a.introd1:hover{
 
 header{
     background-color:rgb(27, 27, 27);
-    width:100%;
 }
-header::-webkit-scrollbar{
-    display:none;
-}
+
 /* logo da nav */
 div.logo{
     background-image:url("./PicsArt_04-28-02.35.22.png");
@@ -754,17 +833,24 @@ div.holditall{
     background:black;
     padding-top:2px;
     padding-bottom:10px;
-    height: 1000px;
+    height: 1100px;
+    width:60%;
 }
 .sections1{
     background:black;
     width:100%;
     height:100%;
 }
+.sections2{
+    width:100%;
+}
+.cadeira-num-campo{
+    width:100%;
+}
 section.introducing2{
-    width:20px;
+    width:400px;
     padding-top:10px;
-    max-width:30px;
+    min-width:20px;
     padding:40px 10px;
     height:300px;
     background-color:rgb(63, 63, 63);
@@ -777,14 +863,13 @@ section.introducing2{
 section.intint{
     margin-top:170px;
     text-align:center;
-    padding-left:20%;
 }
 [data-anime]{
     opacity:0;
     transition:0.3s;
 }
 
-[data-anime=*left*]{
+[data-anime=]*left*{
     transform:translate3d(0, -60px, 0);
 }
 [data-anime].animate{
@@ -796,7 +881,7 @@ section.intint{
 
 
 div.holditall .introducing2{
-    margin:10px 20px;
+    margin:20px 17px;
     text-align:center;
 }
 .ch{
@@ -868,5 +953,4 @@ p.pl2{
     text-align:center;
 }
 } /*acaba o mobile */
-
 
