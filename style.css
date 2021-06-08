@@ -5,7 +5,17 @@
     font-family: sans-serif;
 
 }
-
+div.logo{
+    display:block;
+    background-image:url("./PicsArt_04-28-02.35.22.png");
+    background-size:45px;
+    height:45px;
+    width:45px;
+    cursor:pointer;
+    opacity:100%;
+    z-index:9999;
+    position:absolute;
+}
 nav.pc{
     transition:2s;
     transition-delay: 2s;
@@ -247,12 +257,12 @@ ul.aboutpcopened{
     background-position:center;
     width:100%;
     margin-right:0;
-    max-width:100%;
 }
 /* about the introduction*/
 /*sections1 part from the colordifferent.jpg*/
 div.holditall .introducing2{
     display:inline-block;
+    margin:60px 0;
 }
 
 div.holditall{
@@ -260,6 +270,7 @@ div.holditall{
     height:660px;
     margin-top: 100px;
     padding:20px 70px;
+    margin-right:0;
 }
 div.hoditall .introducing2{
     padding:0;
@@ -401,7 +412,7 @@ p.pp{
     background-position: center;
 }
 .englishexp{
-      background-image: url("./download.jpg");
+      background-image: url("./england.jpg");
     height:700px;
     background-repeat:no-repeat;
     background-size:1100px;
@@ -410,7 +421,7 @@ p.pp{
     margin-bottom:100px;
 }
 .frenchexp{
-    background-image: url("./images.jpg");
+    background-image: url("./franca.jpg");
     height:700px;
     background-repeat:no-repeat;
     margin:auto;
@@ -424,12 +435,15 @@ h2.h2lang{
     text-align:center;
 }
 .pl{
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
     font-size:40px;
     color:white;
     padding-top:180px;
 }
 .pl2{
-    font-size:27px;
+    font-family: 'Pacifico', cursive;
+    font-size:30px;
     color:white;
     padding-top:90px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
@@ -442,28 +456,28 @@ h2.h2lang{
     background-image:url("./studing.jpg");
     background-size:400px;
     height:450px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .cursesabtme{
-    background-image: url("./looking.jpg");
+    background-image: url("./eyes.jpg");
     height:700px;
     background-repeat:no-repeat;
     margin:auto;
     background-position:center;
-    background-size:1000px;
-    margin-bottom: 100px;
+    background-size:1200px;
+    margin-bottom: 60px;
 }
 .expsabtme{
-    background-image: url("./notebook.jpg");
+    background-image: url("./feet.jpg");
     height:700px;
     background-repeat:no-repeat;
     margin:auto;
     background-position:center;
     background-size:1000px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 .tdbmeabtme{
-    background-image: url("./drinking.jpg");
+    background-image: url("./boy.jpg");
     height:700px;
     background-repeat:no-repeat;
     margin:auto;
@@ -486,6 +500,21 @@ h2.h2lang{
     font-size:25px;
     color:white;
     padding-top:60px;
+}
+.pab1{
+    padding-left:600px;
+}
+.pab3{
+    padding-left:630px;
+}
+.exps{
+    padding-right:600px;
+}
+.noone{
+    padding-left:600px;
+}
+.ily1{
+    padding-top:380px;
 }
 /* sobre a última linha e redes sociais*/
 .sectiondalinha-debaixo{
@@ -595,6 +624,9 @@ div.logo{
     height:100%;
     transition: all 0.5s;
 }
+.vezinho.hover{
+    cursor:pointer;
+}
 .vezinho1{
     width:18px;
     height:4px;
@@ -642,6 +674,9 @@ div.logo{
     height:100%;
     margin-top:15px;
     margin-right: 20px;
+}
+.barra.hover{
+    cursor:pointer;
 }
 .barra1{
     width:25px;
@@ -834,7 +869,7 @@ div.holditall{
     padding-top:2px;
     padding-bottom:10px;
     height: 1100px;
-    width:60%;
+    width:80%;
 }
 .sections1{
     background:black;
@@ -847,10 +882,11 @@ div.holditall{
 .cadeira-num-campo{
     width:100%;
 }
+div.holditall .introducing2{
+    margin:20px 10px;
+}
 section.introducing2{
-    width:400px;
-    padding-top:10px;
-    min-width:20px;
+    max-width:600px;
     padding:40px 10px;
     height:300px;
     background-color:rgb(63, 63, 63);
@@ -859,6 +895,7 @@ section.introducing2{
     display:flex;
     align-items: center;
     flex-direction:column;
+    padding-left:0;
 }
 section.intint{
     margin-top:170px;
@@ -880,24 +917,20 @@ section.intint{
 
 
 
-div.holditall .introducing2{
-    margin:20px 17px;
-    text-align:center;
-}
-.ch{
+
+h1.ch{
     color:rgb(214, 214, 214);
-    font-size:36px;
+    font-size:20px;
     padding-top:20px;
     text-align:left;
 
 }
 p.cha{
-    text-align:left;
-    padding-left:0;
+    text-align:center;
 }
 .knowing{
     color:rgb(214, 214, 214);
-    font-size:36px;
+    font-size:20px;
     padding-top:20px;
     text-align:center;
 
@@ -909,17 +942,16 @@ p.cha{
 }
 .jtk{
     color:rgb(214, 214, 214);
-    font-size:36px;
+    font-size:20px;
     padding-top:20px;
     text-align:center;
 }
 .intro1{
     color:rgb(214, 214, 214);
-    padding-left:20px;
     font-size:19px;
     text-align:center;
     text-align:center;
-
+ 
 }
 .wiw{
     padding-top:100px;
@@ -934,16 +966,45 @@ p.cha{
 .lilletter{
     padding-top:60px;
 }
+
+/*about me */
+.pab{
+    font-size:60px;
+    color:white;
+    padding-top:100px;
+    padding-bottom:50px;
+}
+.pab2{
+    font-size:25px;
+    color:white;
+    padding-top:60px;
+}
+.pab1{
+    padding-left:0;
+}
+.pab3{
+    padding-left:0;
+    }
+.exps{
+    padding-right:0;
+}
+.noone{
+    padding-left:0;
+}
+.ily1{
+    padding-top:190px;
+}
 /* linha final e redes-sociais*/
 
 .redes-sociais ul li:hover{
     color:white;
-    font-size:67px;
+    font-size:70px;
     transition: 0.7s;
 }
 .redes-sociais ul li{
     transition: 0.7s;
 }
+
 /*languages index */
 p.pl{
     text-align:center;
