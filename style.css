@@ -999,6 +999,7 @@ div.holditall .introducing2{
 
 section.introducing2{
     border:1px solid rgb(63, 63, 63);
+    width:300px;
     width:100%;
     height:260px;
 }
@@ -1020,17 +1021,18 @@ section.intint{
 }
 h1.ch{
     color:rgb(214, 214, 214);
-    font-size:30px;
+    font-size:37px;
     padding-top:20px;
     text-align:center;
 }
 p.cha{
     text-align:left;
     justify-content:center;
+    font-size:24px;
 }
 .knowing{
     color:rgb(214, 214, 214);
-    font-size:20px;
+    font-size:37px;
     padding-top:10px;
     text-align:center;
 
@@ -1038,16 +1040,17 @@ p.cha{
 .knowing1{
     text-align:left;
     padding:0;
+    font-size:24px;
 }
 .jtk{
     color:rgb(214, 214, 214);
-    font-size:20px;
+    font-size:37px;
     padding-top:20px;
     text-align:center;
 }
 .intro1{
     color:rgb(214, 214, 214);
-    font-size:20px;
+    font-size:24px;
     text-align:center; 
     padding-top:4px;
 }
