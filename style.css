@@ -93,11 +93,9 @@ div.barrapc{
     transition:1s;
     transition-delay:0.6s;
     padding-left:20px;
-    width:300px;
 }
 .aboutbpc.active{
     z-index:1;
-    width:100%;
     position:fixed;
     margin-top:2.8rem;
     padding-right:400px;
@@ -272,8 +270,7 @@ div.holditall{
     background:black;
     height:660px;
     margin-top: 100px;
-    padding:20px 70px;
-    margin-right:0;
+    padding:0 10px;
 }
 div.hoditall .introducing2{
     padding:0;
@@ -284,8 +281,8 @@ div.hoditall .introducing2{
 }
 section.introducing2{
     border:1px solid rgb(63, 63, 63);
-    width:32%;
-    height:100px;
+    width:30%;
+    height:130px;
     background-color:rgb(63, 63, 63);
     border-radius:20px;
     text-align:center;
@@ -572,6 +569,18 @@ div.textinho-debaixo-da-linha{
         padding:20px 70px;
         margin-right:0;
     }
+    section.introducing2{
+        border:1px solid rgb(63, 63, 63);
+        width:100%;
+        height:100px;
+        background-color:rgb(63, 63, 63);
+        border-radius:20px;
+        text-align:center;
+        align-items: center;
+        cursor:pointer;
+        transition:0.7s;
+        transition-delay: 0.3s;
+    }
     .aboutbpc{
         z-index:1;
         width:100%;
@@ -581,7 +590,6 @@ div.textinho-debaixo-da-linha{
         transition:1s;
         transition-delay:0.6s;
         padding-left:20px;
-        width:200px;
     }
     .aboutbpc.active{
         z-index:1;
@@ -589,7 +597,6 @@ div.textinho-debaixo-da-linha{
         position:fixed;
         margin-top:2.8rem;
         padding-right:400px;
-        width:100%;
         opacity:70%;
         padding-top:40px;
         height:100%;
@@ -598,6 +605,18 @@ div.textinho-debaixo-da-linha{
 }
 }
 @media screen and (max-width:940px){
+    section.introducing2{
+        border:1px solid rgb(63, 63, 63);
+        width:100%;
+        height:100px;
+        background-color:rgb(63, 63, 63);
+        border-radius:20px;
+        text-align:center;
+        align-items: center;
+        cursor:pointer;
+        transition:0.7s;
+        transition-delay: 0.3s;
+    }
     .aboutbpc{
         z-index:1;
         width:100%;
@@ -607,7 +626,6 @@ div.textinho-debaixo-da-linha{
         transition:1s;
         transition-delay:0.6s;
         padding-left:20px;
-        width:200px;
     }
     .aboutbpc.active{
         z-index:1;
@@ -615,7 +633,6 @@ div.textinho-debaixo-da-linha{
         position:fixed;
         margin-top:2.8rem;
         padding-right:400px;
-        width:100%;
         opacity:70%;
         padding-top:40px;
         height:100%;
