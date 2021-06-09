@@ -14,7 +14,6 @@ div.logo{
     cursor:pointer;
     opacity:100%;
     z-index:9999;
-    position:absolute;
 }
 nav.pc{
     transition:2s;
@@ -62,7 +61,7 @@ div.barrapc{
     margin-top:18px;
 }
 .barra1pc.active{
-    width:25px;
+    width:10px;
     height:5px;
     background:#b6b67e;
     transform: rotate(42deg) translate(1px, 3px);
@@ -86,20 +85,24 @@ div.barrapc{
 /* sobre mim aberto com bzinho*/
 
 .aboutbpc{
-    display:none;
-    padding-top:0;
-    height:20%;
-    background-color:rgb(8, 8, 8);
-    opacity:1;
-    position:absolute;
+    z-index:1;
     width:100%;
+    position:fixed;
     margin-top:2.8rem;
+    margin-left:-300px;
     transition:1s;
     transition-delay:0.6s;
-    position:fixed;
-    z-index: 1000;
+    padding-left:20px;
+    width:300px;
 }
 .aboutbpc.active{
+    z-index:1;
+    width:100%;
+    position:fixed;
+    margin-top:2.8rem;
+    padding-right:400px;
+    width:100%;
+    opacity:70%;
     padding-top:40px;
     height:100%;
     transition:1.4s;
@@ -280,11 +283,11 @@ div.hoditall .introducing2{
     background:black;
 }
 section.introducing2{
+    border:1px solid rgb(63, 63, 63);
+    width:32%;
     height:100px;
     background-color:rgb(63, 63, 63);
-    border:2px solid rgb(63, 63, 63);
     border-radius:20px;
-    padding:10px 60px;
     text-align:center;
     align-items: center;
     cursor:pointer;
@@ -561,7 +564,95 @@ div.textinho-debaixo-da-linha{
 .redes-sociais ul li{
     transition: 0.7s;
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:1200px){
+    div.holditall{
+        background:black;
+        height:1100px;
+        margin-top: 100px;
+        padding:20px 70px;
+        margin-right:0;
+    }
+    .aboutbpc{
+        z-index:1;
+        width:100%;
+        position:fixed;
+        margin-top:2.8rem;
+        margin-left:-400px;
+        transition:1s;
+        transition-delay:0.6s;
+        padding-left:20px;
+        width:200px;
+    }
+    .aboutbpc.active{
+        z-index:1;
+        width:100%;
+        position:fixed;
+        margin-top:2.8rem;
+        padding-right:400px;
+        width:100%;
+        opacity:70%;
+        padding-top:40px;
+        height:100%;
+        transition:1.4s;
+        transition-delay: 1s;
+}
+}
+@media screen and (max-width:940px){
+    .aboutbpc{
+        z-index:1;
+        width:100%;
+        position:fixed;
+        margin-top:2.8rem;
+        margin-left:-600px;
+        transition:1s;
+        transition-delay:0.6s;
+        padding-left:20px;
+        width:200px;
+    }
+    .aboutbpc.active{
+        z-index:1;
+        width:100%;
+        position:fixed;
+        margin-top:2.8rem;
+        padding-right:400px;
+        width:100%;
+        opacity:70%;
+        padding-top:40px;
+        height:100%;
+        transition:1.4s;
+        transition-delay: 1s;
+}
+.pab{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Roboto', sans-serif;
+    font-size:60px;
+    color:white;
+    padding-top:100px;
+    padding-bottom:50px;
+}
+.pab2{
+    font-size:25px;
+    color:white;
+    padding-top:60px;
+}
+.pab1{
+    padding-left:0;
+}
+.pab3{
+    padding-left:0;
+    }
+.exps{
+    padding-right:0;
+}
+.noone{
+    padding-left:0;
+}
+.ily1{
+    
+    padding-top:190px;
+}
+}
+@media screen and (max-width:740px){
 
 nav.mobile{
     transition:2s;
@@ -613,6 +704,7 @@ div.logo{
     width:45px;
     cursor: pointer;
     opacity:1;
+    z-index:1;
 }
 
 
@@ -620,6 +712,7 @@ div.logo{
 
 /*os vezinhos da nav */
 .vezinho{
+    z-index:3;
     margin-top:12px;
     height:100%;
     transition: all 0.5s;
@@ -788,6 +881,7 @@ div.barrapc{
     z-index: 1000;
 }
 .aboutb.active{
+    overflow:hidden;
     padding-top:40px;
     height:100%;
     transition:1.4s;
@@ -849,7 +943,7 @@ div.barrapc{
 .baixob2{
     cursor:pointer;
     text-align:center;
-    margin-top: 60px;
+    margin-top:40px;
 }
 /*GERAL DO MOBILE*/
 
@@ -869,7 +963,7 @@ div.holditall{
     padding-top:2px;
     padding-bottom:10px;
     height: 1100px;
-    width:80%;
+    width:90%;
 }
 .sections1{
     background:black;
@@ -885,17 +979,11 @@ div.holditall{
 div.holditall .introducing2{
     margin:20px 10px;
 }
+
 section.introducing2{
-    max-width:600px;
-    padding:40px 10px;
-    height:300px;
-    background-color:rgb(63, 63, 63);
-    border:13px solid rgb(63, 63, 63);
-    border-radius:20px;
-    display:flex;
-    align-items: center;
-    flex-direction:column;
-    padding-left:0;
+    border:1px solid rgb(63, 63, 63);
+    width:100%;
+    height:260px;
 }
 section.intint{
     margin-top:170px;
@@ -913,32 +1001,26 @@ section.intint{
     opacity:1;
     transform:translate3d(0px, 0px, 0px);
 }
-
-
-
-
-
 h1.ch{
     color:rgb(214, 214, 214);
-    font-size:20px;
+    font-size:30px;
     padding-top:20px;
-    text-align:left;
-
+    text-align:center;
 }
 p.cha{
-    text-align:center;
+    text-align:left;
+    justify-content:center;
 }
 .knowing{
     color:rgb(214, 214, 214);
     font-size:20px;
-    padding-top:20px;
+    padding-top:10px;
     text-align:center;
 
 }
 .knowing1{
-    text-align:center;
-    justify-content:center;
-    text-align:center;
+    text-align:left;
+    padding:0;
 }
 .jtk{
     color:rgb(214, 214, 214);
@@ -948,20 +1030,21 @@ p.cha{
 }
 .intro1{
     color:rgb(214, 214, 214);
-    font-size:19px;
-    text-align:center;
-    text-align:center;
- 
+    font-size:20px;
+    text-align:center; 
+    padding-top:4px;
 }
 .wiw{
     padding-top:100px;
     color:rgb(0, 0, 0);
     font-size:40px;
     padding-bottom:100px;
+    font-family: 'Roboto', sans-serif;
 }
 .intr1{
     color:rgb(17, 16, 16);
-    font-size:23px;
+    font-size:30px;
+    font-family: 'Roboto', sans-serif italic;
 }
 .lilletter{
     padding-top:60px;
@@ -969,6 +1052,8 @@ p.cha{
 
 /*about me */
 .pab{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Roboto', sans-serif;
     font-size:60px;
     color:white;
     padding-top:100px;
@@ -992,6 +1077,7 @@ p.cha{
     padding-left:0;
 }
 .ily1{
+    
     padding-top:190px;
 }
 /* linha final e redes-sociais*/
