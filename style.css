@@ -26,6 +26,7 @@ nav.pc{
     height:45px;
     background:rgb(8, 8, 8);
     border-bottom: 2px solid rgb(41, 41, 41);
+    z-index:99999;
 }
 
 /* as barras da nav*/
@@ -346,20 +347,22 @@ section.intint{
     height:870px;
     opacity:96%;
 }
-.wiw{
+h2.wiw{
     padding-top:100px;
-    color:rgb(70, 70, 70);
     font-size:60px;
     padding-bottom:100px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-decoration:underline;
 }
-.intr1{
-    color:rgb(26, 25, 25);
+p.intr1{
     font-size:29px;
     text-align:center;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-decoration:underline;
+    
+}
+.ww{
+    color:rgb(100, 100, 100);
 }
 .lilletter{
     padding-top:70px;
@@ -1013,7 +1016,7 @@ div.holditall{
     background:black;
     padding-top:2px;
     padding-bottom:10px;
-    height: 900px;
+    height: 1000px;
     width:100%;
 }
 
@@ -1035,10 +1038,10 @@ div.holditall .introducing2{
 section.introducing2{
     border:1px solid rgb(63, 63, 63);
     width:100%;
-    height:240px;
+    height:270px;
 }
 section.introducing2:hover{
-    height: 260px;
+    height: 280px;
 }
 section.intint{
     margin-top:170px;
@@ -1091,18 +1094,7 @@ p.cha{
     text-align:center; 
     padding-top:4px;
 }
-.wiw{
-    padding-top:100px;
-    color:rgb(0, 0, 0);
-    font-size:40px;
-    padding-bottom:100px;
-    font-family: 'Roboto', sans-serif;
-}
-.intr1{
-    color:rgb(17, 16, 16);
-    font-size:30px;
-    font-family: 'Roboto', sans-serif italic;
-}
+
 .lilletter{
     padding-top:60px;
 }
@@ -1110,7 +1102,7 @@ p.cha{
 /*about me */
 .pab{
     font-family: 'Dancing Script', cursive;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size:60px;
     color:white;
     padding-top:100px;
