@@ -455,7 +455,7 @@ h2.h2lang{
 .ab1sec{
     background-image:url("./studing.jpg");
     background-size:400px;
-    height:450px;
+    height:350px;
     margin-bottom: 60px;
 }
 .cursesabtme{
@@ -464,7 +464,7 @@ h2.h2lang{
     background-repeat:no-repeat;
     margin:auto;
     background-position:center;
-    background-size:1200px;
+    background-size:1800px;
     margin-bottom: 60px;
 }
 .expsabtme{
@@ -473,7 +473,7 @@ h2.h2lang{
     background-repeat:no-repeat;
     margin:auto;
     background-position:center;
-    background-size:1000px;
+    background-size:1800px;
     margin-bottom: 60px;
 }
 .tdbmeabtme{
@@ -482,7 +482,7 @@ h2.h2lang{
     background-repeat:no-repeat;
     margin:auto;
     background-position:center;
-    background-size:1000px;
+    background-size:1800px;
 }
 .h2about{
     padding-top:300px;
@@ -492,13 +492,14 @@ h2.h2lang{
 }
 .pab{
     font-size:60px;
-    color:white;
+    color:rgb(0, 0, 0);
+    font-family:italic;
     padding-top:100px;
     padding-bottom:50px;
 }
 .pab2{
     font-size:25px;
-    color:white;
+    color:rgb(0, 0, 0);
     padding-top:60px;
 }
 .pab1{
@@ -513,8 +514,11 @@ h2.h2lang{
 .noone{
     padding-left:600px;
 }
+.pab4{
+    padding-right:600px;
+}
 .ily1{
-    padding-top:380px;
+    padding-top:180px;
 }
 /* sobre a última linha e redes sociais*/
 .sectiondalinha-debaixo{
@@ -980,7 +984,7 @@ div.holditall{
     padding-top:2px;
     padding-bottom:10px;
     height: 1100px;
-    width:90%;
+    width:100%;
 }
 .sections1{
     background:black;
@@ -994,13 +998,13 @@ div.holditall{
     width:100%;
 }
 div.holditall .introducing2{
-    margin:20px 10px;
+    margin:30px 10px;
 }
 
 section.introducing2{
     border:1px solid rgb(63, 63, 63);
     width:100%;
-    height:260px;
+    height:300px;
 }
 section.intint{
     margin-top:170px;
@@ -1025,9 +1029,9 @@ h1.ch{
     text-align:center;
 }
 p.cha{
-    text-align:left;
+    text-align:center;
     justify-content:center;
-    font-size:19px;
+    font-size:22px;
 }
 .knowing{
     color:rgb(214, 214, 214);
