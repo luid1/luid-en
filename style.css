@@ -983,8 +983,11 @@ div.holditall{
     background:black;
     padding-top:2px;
     padding-bottom:10px;
-    height: 1400px;
+    height: 1200px;
     width:100%;
+}
+div.holditall:hover{
+    height:1230px;
 }
 .sections1{
     background:black;
