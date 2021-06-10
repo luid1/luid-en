@@ -405,18 +405,19 @@ p.pp{
 /* LANGUAGE.HTML */
 
 .lang1sec{
-    background-image:url("./images\ \(4\).jpg");
-    height:450px;
+    background-image:url("./cisne.jpeg");
+    height:500px;
     margin:auto;
     background-repeat:no-repeat;
-    background-size:1600px;
+    background-size:1700px;
     background-position: center;
+    margin-bottom:60px;
 }
 .englishexp{
-      background-image: url("./england.jpg");
-    height:700px;
+      background-image: url("./quadros.jpeg");
+    height:800px;
     background-repeat:no-repeat;
-    background-size:1100px;
+    background-size:1700px;
     margin:auto;
     background-position:center;
     margin-bottom:100px;
@@ -978,7 +979,19 @@ div.barrapc{
 /*section 1*/
 .abertura{
     background-image:url("./moca.jpeg");
-    background-size:400px;
+    background-size:700px;
+    height:700px;
+}
+
+/* LANGUAGE.HTML */
+
+.lang1sec{
+    background-image:url("./images\ \(4\).jpg");
+    height:450px;
+    margin:auto;
+    background-repeat:no-repeat;
+    background-size:1600px;
+    background-position: center;
 }
 /*background cards introduction2*/
 
@@ -988,7 +1001,7 @@ div.holditall{
     background:black;
     padding-top:2px;
     padding-bottom:10px;
-    height: 1100px;
+    height: 900px;
     width:100%;
 }
 
@@ -1010,10 +1023,10 @@ div.holditall .introducing2{
 section.introducing2{
     border:1px solid rgb(63, 63, 63);
     width:100%;
-    height:300px;
+    height:220px;
 }
 section.introducing2:hover{
-    height: 310px;
+    height: 230px;
 }
 section.intint{
     margin-top:170px;
