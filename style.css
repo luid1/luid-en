@@ -251,8 +251,8 @@ ul.aboutpcopened{
 }
 /* primeira fotinha de cima "abertura" */
 .abertura{
-    background-image:url("./colordifferent.jpg");
-    height:500px;
+    background-image:url("./moca.jpeg");
+    height:700px;
     background-size:1700px;
     background-repeat: no-repeat;
     background-position:center;
@@ -267,8 +267,8 @@ div.holditall .introducing2{
 }
 
 div.holditall{
-    background:black;
-    height:660px;
+    background:rgb(0, 0, 0);
+    height:460px;
     margin-top: 100px;
     padding:0 10px;
 }
@@ -308,7 +308,7 @@ section.intint{
     text-align:center;
 }
 .ch{
-    color:rgb(214, 214, 214);
+    color:white;
     font-size:40px;
     padding-top:20px;
 }
@@ -318,6 +318,7 @@ section.intint{
     padding-top:20px;
 }
 .knowing1{
+    color:white;
     text-align:left;
     justify-content:left;
 }
@@ -327,7 +328,7 @@ section.intint{
     padding-top:20px;
 }
 .knowso{
-    color:rgb(214, 214, 214);
+    color: white;
     font-size:37px;
     padding-top:10px;
 }
@@ -339,10 +340,10 @@ section.intint{
     text-align:left;
 }
 .cadeira-num-campo{
-    background-image: url("./WhatsApp\ Image\ 2021-05-30\ at\ 3.57.05\ PM.jpeg");
+    background-image: url("./people.jpeg");
     background-position: center;
-    background-size:1100px;
-    height:600px;
+    background-size:1600px;
+    height:870px;
 }
 .wiw{
     padding-top:100px;
@@ -983,7 +984,7 @@ div.holditall{
     background:black;
     padding-top:2px;
     padding-bottom:10px;
-    height: 1000px;
+    height: 1400px;
     width:100%;
 }
 
@@ -1008,7 +1009,7 @@ section.introducing2{
     height:400px;
 }
 section.introducing2:hover{
-    height: 1300px;
+    height: 410px;
 }
 section.intint{
     margin-top:170px;
