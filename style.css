@@ -344,17 +344,22 @@ section.intint{
     background-position: center;
     background-size:1600px;
     height:870px;
+    opacity:96%;
 }
 .wiw{
     padding-top:100px;
-    color:rgb(0, 217, 255);
+    color:rgb(70, 70, 70);
     font-size:60px;
     padding-bottom:100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration:underline;
 }
 .intr1{
-    color:rgb(21, 228, 183);
+    color:rgb(26, 25, 25);
     font-size:29px;
     text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration:underline;
 }
 .lilletter{
     padding-top:70px;
@@ -479,17 +484,18 @@ h2.h2lang{
     margin-bottom: 60px;
 }
 .tdbmeabtme{
-    background-image: url("./boy.jpg");
+    background-image: url("./wave.jpeg");
     height:700px;
     background-repeat:no-repeat;
     margin:auto;
     background-position:center;
-    background-size:1800px;
+    background-size:1700px;
 }
 .h2about{
-    padding-top:300px;
-    font-size:40px;
-    color:white;
+    padding-top:270px;
+    font-size:46px;
+    color:rgb(29, 39, 48);
+    font-family: italic;
     text-align:center;
 }
 .pab{
@@ -511,16 +517,22 @@ h2.h2lang{
     padding-left:630px;
 }
 .exps{
-    padding-right:600px;
+    padding-right:800px;
 }
 .noone{
-    padding-left:600px;
+    padding-right:800px;
+    font-size:30px;
 }
 .pab4{
     padding-right:600px;
+    color:white;
 }
 .ily1{
-    padding-top:180px;
+    font-family: sans-serif italic;
+    font-size:30px;
+    padding-top:370px;
+    color:rgb(50, 98, 255);
+    padding-left:300px;
 }
 /* sobre a última linha e redes sociais*/
 .sectiondalinha-debaixo{
@@ -990,7 +1002,7 @@ div.barrapc{
     height:450px;
     margin:auto;
     background-repeat:no-repeat;
-    background-size:1600px;
+    background-size:700px;
     background-position: center;
 }
 /*background cards introduction2*/
@@ -1023,10 +1035,10 @@ div.holditall .introducing2{
 section.introducing2{
     border:1px solid rgb(63, 63, 63);
     width:100%;
-    height:220px;
+    height:240px;
 }
 section.introducing2:hover{
-    height: 230px;
+    height: 260px;
 }
 section.intint{
     margin-top:170px;
@@ -1034,7 +1046,7 @@ section.intint{
 }
 [data-anime]{
     opacity:0;
-    transition:0.3s;
+    transition:0.1s;
 }
 
 [data-anime=]*left*{
