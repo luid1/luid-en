@@ -26,7 +26,6 @@ nav.pc{
     height:45px;
     background:rgb(8, 8, 8);
     border-bottom: 2px solid rgb(41, 41, 41);
-    z-index:99999;
 }
 
 /* as barras da nav*/
@@ -86,7 +85,6 @@ div.barrapc{
 /* sobre mim aberto com bzinho*/
 
 .aboutbpc{
-    z-index:1;
     width:100%;
     position:fixed;
     margin-top:2.8rem;
@@ -96,7 +94,6 @@ div.barrapc{
     padding-left:20px;
 }
 .aboutbpc.active{
-    z-index:1;
     position:fixed;
     margin-top:2.8rem;
     padding-right:400px;
@@ -160,7 +157,7 @@ header{
 
 /*about pc selecionado inline-block pela nav*/
 nav{
-    opacity:70%;
+    opacity:90%;
 }
 
 .aboutpc{
@@ -279,6 +276,7 @@ div.hoditall .introducing2{
 }
 .sections1{
     background:black;
+    width:100%;
 }
 section.introducing2{
     border:1px solid rgb(63, 63, 63);
@@ -463,6 +461,7 @@ h2.h2lang{
 /* ABOUTME.HTML */
 
 .ab1sec{
+    width:100%;
     background-image:url("./studing.jpg");
     background-size:400px;
     height:350px;
@@ -472,7 +471,6 @@ h2.h2lang{
     background-image: url("./eyes.jpg");
     height:700px;
     background-repeat:no-repeat;
-    margin:auto;
     background-position:center;
     background-size:1800px;
     margin-bottom: 60px;
@@ -481,7 +479,6 @@ h2.h2lang{
     background-image: url("./feet.jpg");
     height:700px;
     background-repeat:no-repeat;
-    margin:auto;
     background-position:center;
     background-size:1800px;
     margin-bottom: 60px;
@@ -490,7 +487,6 @@ h2.h2lang{
     background-image: url("./wave.jpeg");
     height:700px;
     background-repeat:no-repeat;
-    margin:auto;
     background-position:center;
     background-size:1700px;
 }
@@ -534,7 +530,7 @@ h2.h2lang{
     font-family: sans-serif italic;
     font-size:30px;
     padding-top:370px;
-    color:rgb(50, 98, 255);
+    color:rgb(22, 65, 206);
     padding-left:300px;
 }
 /* sobre a última linha e redes sociais*/
@@ -1100,6 +1096,39 @@ p.cha{
 }
 
 /*about me */
+/* ABOUTME.HTML */
+
+.ab1sec{
+  
+    background-image:url("./studing.jpg");
+    background-size:400px;
+    height:350px;
+    margin-bottom: 60px;
+}
+.cursesabtme{
+
+    background-image: url("./eyes.jpg");
+    height:450px;
+    background-repeat:no-repeat;
+    background-size:700px;
+    background-position: center;
+}
+.expsabtme{
+   
+    background-image: url("./feet.jpg");
+    height:700px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:800px;
+    margin-bottom: 60px;
+}
+.tdbmeabtme{   
+    background-image: url("./wave.jpeg");
+   height:700px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:700px; 
+}
 .pab{
     font-family: 'Dancing Script', cursive;
     font-family: 'Roboto', sans-serif;
@@ -1120,10 +1149,11 @@ p.cha{
     padding-left:0;
     }
 .exps{
-    padding-right:0;
+    padding-left:0;
+    padding:0;
 }
 .noone{
-    padding-left:0;
+    padding-right:0;
 }
 .ily1{
     
