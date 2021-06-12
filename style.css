@@ -249,7 +249,7 @@ ul.aboutpcopened{
 }
 /* primeira fotinha de cima "abertura" */
 .abertura{
-    background-image:url("./moca.jpeg");
+    background-image:url("./girls.jpg");
     height:700px;
     background-size:1700px;
     background-repeat: no-repeat;
@@ -301,7 +301,7 @@ section.intint{
 
 /* introdution css */
 .hello{
-    color:rgb(195, 221, 255);
+    color:rgb(0, 0, 0);
     font-size:47px;
     padding-top:400px;
     text-align:center;
@@ -420,7 +420,7 @@ p.pp{
     margin-bottom:60px;
 }
 .englishexp{
-      background-image: url("./quadros.jpeg");
+      background-image: url("./englishflag.jpg");
     height:800px;
     background-repeat:no-repeat;
     background-size:1700px;
@@ -429,12 +429,12 @@ p.pp{
     margin-bottom:100px;
 }
 .frenchexp{
-    background-image: url("./franca.jpg");
+    background-image: url("./frenchflag.jpg");
     height:700px;
     background-repeat:no-repeat;
     margin:auto;
     background-position:center;
-    background-size:1100px;
+    background-size:1700px;
 }
 h2.h2lang{
     padding-top:300px;
@@ -446,13 +446,13 @@ h2.h2lang{
     font-family: 'Pacifico', cursive;
     font-weight: 600;
     font-size:40px;
-    color:white;
+    color:rgb(0, 0, 0);
     padding-top:180px;
 }
 .pl2{
     font-family: 'Pacifico', cursive;
     font-size:30px;
-    color:white;
+    color:rgb(0, 0, 0);
     padding-top:90px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
@@ -460,8 +460,7 @@ h2.h2lang{
 
 /* ABOUTME.HTML */
 
-.ab1sec{
-    width:100%;
+div.mbm{
     background-image:url("./studing.jpg");
     background-size:400px;
     height:350px;
@@ -689,6 +688,7 @@ font-family: 'Roboto', sans-serif;
 @media screen and (max-width:740px){
 
 nav.mobile{
+    z-index:2;
     transition:2s;
     transition-delay: 2s;
     position:fixed;
@@ -981,34 +981,26 @@ div.barrapc{
 }
 /*GERAL DO MOBILE*/
 
-/*about the collordifferent.jpg*/
+/*introoduction.jpg*/
 
-.abertura{
-    height:600px;
-    width:100%;
-}
 /*section 1*/
 .abertura{
     background-image:url("./moca.jpeg");
     background-size:700px;
     height:700px;
 }
-
+.hello{
+    color:rgb(101, 131, 187);
+}
 /* LANGUAGE.HTML */
 
-.lang1sec{
-    background-image:url("./images\ \(4\).jpg");
-    height:450px;
-    margin:auto;
-    background-repeat:no-repeat;
-    background-size:700px;
-    background-position: center;
-}
+
 /*background cards introduction2*/
 
 
 
 div.holditall{
+    display:inline-block;
     background:black;
     padding-top:2px;
     padding-bottom:10px;
@@ -1029,9 +1021,11 @@ div.holditall{
 }
 div.holditall .introducing2{
     margin:30px 10px;
+    display:inline-block;
 }
 
 section.introducing2{
+    z-index:1;
     border:1px solid rgb(63, 63, 63);
     width:100%;
     height:270px;
@@ -1094,44 +1088,48 @@ p.cha{
 .lilletter{
     padding-top:60px;
 }
+/*language*/
+.frenchexp{
+    height:840px;
+}
 
 /*about me */
 /* ABOUTME.HTML */
 
 .ab1sec{
-  
+    width:100%;
     background-image:url("./studing.jpg");
-    background-size:400px;
+    background-size:1400px;
     height:350px;
     margin-bottom: 60px;
+    padding:200px;
 }
 .cursesabtme{
-
+    width:100%;
     background-image: url("./eyes.jpg");
     height:450px;
     background-repeat:no-repeat;
-    background-size:700px;
+    background-size:1700px;
     background-position: center;
 }
 .expsabtme{
-   
+    width:100%;
     background-image: url("./feet.jpg");
     height:700px;
     background-repeat:no-repeat;
     background-position:center;
-    background-size:800px;
+    background-size:1800px;
     margin-bottom: 60px;
 }
-.tdbmeabtme{   
+.tdbmeabtme{
+    width:100%;
     background-image: url("./wave.jpeg");
-   height:700px;
+    height:700px;
     background-repeat:no-repeat;
     background-position:center;
-    background-size:700px; 
+    background-size:1700px; 
 }
 .pab{
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Roboto', sans-serif;
     font-size:60px;
     color:white;
     padding-top:100px;
@@ -1143,17 +1141,16 @@ p.cha{
     padding-top:60px;
 }
 .pab1{
-    padding-left:0;
+    text-align:center;
 }
 .pab3{
-    padding-left:0;
+    text-align:center;
     }
 .exps{
-    padding-left:0;
-    padding:0;
+    text-align:center;
 }
 .noone{
-    padding-right:0;
+    text-align:center;
 }
 .ily1{
     
